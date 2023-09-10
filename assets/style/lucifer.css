@@ -2,16 +2,8 @@
 body {
   background: linear-gradient(#C63D2F 0%, #E25E3E 40%, #FF9B50 100%);
 }
-@keyframes fadeIn {
-    0% {
-      opacity: 0;
-      transform: translateY(20px); /* Opsi: animasi translasi saat fade-in */
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0); /* Opsi: mengembalikan ke posisi awal */
-    }
-  }
+
+  
   
 .profile{
     margin-top: 100px;
