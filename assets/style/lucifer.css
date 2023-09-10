@@ -1,0 +1,157 @@
+
+body {
+  background: linear-gradient(#C63D2F 0%, #E25E3E 40%, #FF9B50 100%);
+}
+@keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px); /* Opsi: animasi translasi saat fade-in */
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0); /* Opsi: mengembalikan ke posisi awal */
+    }
+  }
+  
+.profile{
+    margin-top: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border: 20px #ffff;
+    
+}
+.bludrahel {
+    width: 200px;
+
+}
+.profile h2 {
+    color:aliceblue;
+}
+.profile h4 {
+    color:aliceblue;
+    transform: translateY(-10px); /*buat mengurangi jarak label lucifer agar keatasan*/
+}
+.biodata {
+    background: linear-gradient(#ffff 0%, #ffffffd5 40%, #ffffff00 100%);
+    padding-bottom: 210px; /*untuk mengatur jarak dari gradient agar gak terlalu atasss*/
+    padding-top: 55PX; /*kalo gak ada ini nanti tulisan MY biodata e kelewatan */
+}
+.hello {
+    opacity: 0 10 30 50 70 80 100;
+    animation: fadeIn 1s ease-in-out; 
+}
+
+.row {
+    padding: 0px 20px; /*0px untuk atas dan bawah dan 10px untuk yang kanan dan kiri*/
+}
+.footer {
+    background-color: #ffff;
+    padding-bottom: 30px; /*agar warna yang dibawah menghilang */
+}
+.contact {
+    font-size: 29px;
+    padding-bottom: 15px; /*mengetur jarak copyright */
+}
+.SONG {
+    padding-top: 55px ; /*sama kek yang biodata*/
+    margin-top: -110px; /* mengatur jarak class song ditampilan HP agar gak terlalu jauh */
+}
+.nama{
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.mybd {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+}
+
+.dalem {
+    font-family: cursive;
+}
+.lagu {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.namalagu {
+    font-family:serif;
+}
+@import url("https://fonts.googleapis.com/css?family=Poppins:700");
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+button {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    background: transparent;
+    width: 13rem;
+    height: auto;
+}
+
+button .circle {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 3rem;
+    height: 3rem;
+    background: #1a99fd;
+    border-radius: 1.625rem;
+}
+
+button .arrow_icon {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    background: #fff;
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    left: 0.625rem;
+    width: 1.125rem;
+    height: 0.125rem;
+    background: none;
+}
+
+button .arrow_icon::before {
+    position: absolute;
+    content: "";
+    top: -0.25rem;
+    right: 0.0625rem;
+    width: 0.625rem;
+    height: 0.625rem;
+    border-top: 0.125rem solid #fff;
+    border-right: 0.125rem solid #fff;
+    transform: rotate(45deg);
+}
+
+button .button_text {
+    transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+    position: absolute;
+    inset: 0;
+    padding: 0.75rem 0;
+    margin: 0 0 0 1.85rem;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1rem;
+    line-height: 1.5;
+    letter-spacing: 1px;
+}
+
+button:hover .circle {
+    width: 100%;
+}
+
+button:hover .arrow_icon {
+    background: #fff;
+    transform: translate(1rem, 0);
+}
+
