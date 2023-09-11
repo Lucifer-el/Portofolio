@@ -29,7 +29,7 @@ body {
     background: linear-gradient(#ffff 0%, #ffffffd5 40%, #ffffff00 100%);
     padding-bottom: 210px; /*untuk mengatur jarak dari gradient agar gak terlalu atasss*/
     padding-top: 55PX; /*kalo gak ada ini nanti tulisan MY biodata e kelewatan */
-  background-color:#A73121 ;
+  
 }
 .hello {
     opacity: 0 10 30 50 70 80 100;
